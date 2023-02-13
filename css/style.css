@@ -1,5 +1,19 @@
+a {
+  all: unset;
+  cursor: pointer;
+  transition: .3s;
+}
+
+a:hover {
+  opacity: .5;
+}
+
 h1 {
   font-size: 24px;
   padding-bottom: 8px;
   border-bottom: 1px solid #ddd;
+}
+
+.cafelink {
+  border: 1px solid black;
 }
